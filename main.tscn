@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfc02uflya4y7"]
+
+[ext_resource type="Texture2D" uid="uid://r3whlvqh2t1w" path="res://9s.png" id="1_0cnsu"]
+[ext_resource type="Texture2D" uid="uid://c8nudveyrob81" path="res://8h.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://dap7hvblf25co" path="res://12d.png" id="3_h2yge"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Card" type="Sprite2D" parent="."]
+position = Vector2(473, -322)
+scale = Vector2(0.329737, 0.329737)
+texture = ExtResource("1_0cnsu")
+
+[node name="8h" type="Sprite2D" parent="."]
+position = Vector2(609, 483)
+texture = ExtResource("2_0xm2m")
+
+[node name="12d" type="Sprite2D" parent="."]
+position = Vector2(917, -99)
+texture = ExtResource("3_h2yge")
