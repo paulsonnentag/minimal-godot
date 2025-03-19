@@ -10,15 +10,8 @@ config_version=5
 
 [application]
 
-config/name="minimal-godot"
-config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/features=PackedStringArray("4.3")
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/patchwork/plugin.cfg")
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
